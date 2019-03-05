@@ -9,7 +9,9 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.List;
 import java.util.stream.Stream;
 
-import static info.qinyu.bookseller.Books.*;
+import static info.qinyu.bookseller.Books.DDDD;
+import static info.qinyu.bookseller.Books.IDDD;
+import static info.qinyu.bookseller.Books.KIA;
 import static java.util.Arrays.asList;
 import static java.util.Collections.emptyList;
 import static java.util.Collections.singletonList;
