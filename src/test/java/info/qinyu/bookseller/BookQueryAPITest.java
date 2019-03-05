@@ -24,6 +24,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(BookQueryController.class)
+@Tag("api")
 public class BookQueryAPITest {
 
     @Autowired
